@@ -1,0 +1,104 @@
+html {
+  background-color: #E4E9FD; /* sets the background color for the entire HTML document */
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); /* creates a gradient background */
+  min-height: 1000px; /* sets the minimum height of the HTML element */
+  font-family: 'helvetica neue'; /* sets the font for the entire HTML document */
+}
+
+
+h1 {
+  color: #fff; /* sets the font color for h1 headings */
+  padding: 10px; /* adds padding to the top and bottom of h1 headings */
+}
+
+h2 {
+  
+  padding: 10px; /* adds padding to the top and bottom of h1 headings */
+}
+
+.box {
+  max-width: 400px; /* sets the maximum width of the element with class "box" */
+  margin: 50px auto; /* sets the margin around the element with class "box" */
+  background: white; /* sets the background color for the element with class "box" */
+  border-radius: 5px; /* adds rounded corners to the element with class "box" */
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); /* adds a shadow to the element with class "box" */
+}
+
+#heading {
+  background-color: #A683E3; /* sets the background color for the element with ID "heading" */
+  text-align: center; /* centers the text in the element with ID "heading" */
+}
+
+
+.item {
+  min-height: 70px; /* sets the minimum height for all elements with class "item" */
+  display: flex; /* sets the display property of all elements with class "item" to "flex" */
+  align-items: center; /* centers the content vertically in all elements with class "item" */
+  border-bottom: 1px solid #F1F1F1; /* adds a bottom border to all elements with class "item" */
+}
+
+.item:last-child {
+  border-bottom: 0; /* removes the bottom border from the last element with class "item" */
+}
+
+
+input:checked+p {   /*When the checkbox is checked this style will affect the p element after the input checked */
+  text-decoration: line-through;  /*Applies a strikethrough style to the text*/
+  text-decoration-color: #A683E3; /*Sets the color of the strikethrough to purple*/
+}
+
+input[type="checkbox"] {
+  margin: 20px; /* adds a margin around all checkboxes */
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
